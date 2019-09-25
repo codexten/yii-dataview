@@ -34,7 +34,7 @@ class GridView extends \kartik\grid\GridView
      * @see registerResizableColumns()
      */
     public $resizableColumns = [];
-
+    
     public function run()
     {
         $this->registerResizableColumns();
