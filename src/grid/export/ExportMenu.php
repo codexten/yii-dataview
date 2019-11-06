@@ -10,6 +10,7 @@ class ExportMenu extends \kartik\export\ExportMenu
     use GridViewTrait;
 
     public $clearBuffers = true;
+    public $folder = '@runtime/export';
 
     public function columns()
     {
